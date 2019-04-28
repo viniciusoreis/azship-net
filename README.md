@@ -1,5 +1,5 @@
-# azship-net
+# AzShip .NET
 
 Work in Progress
 
-Creation of a Shipment Solution using .NET Core and Cloud
+Creation of a shipment solution using .NET Core and cloud.
