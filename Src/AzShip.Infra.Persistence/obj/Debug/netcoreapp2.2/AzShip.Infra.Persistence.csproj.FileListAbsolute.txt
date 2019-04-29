@@ -1,0 +1,9 @@
+C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\bin\Debug\netcoreapp2.2\AzShip.Infra.Persistence.deps.json
+C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\bin\Debug\netcoreapp2.2\AzShip.Infra.Persistence.dll
+C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\bin\Debug\netcoreapp2.2\AzShip.Infra.Persistence.pdb
+C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.csprojAssemblyReference.cache
+C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.csproj.CoreCompileInputs.cache
+C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.AssemblyInfoInputs.cache
+C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.AssemblyInfo.cs
+C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.dll
+C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.pdb

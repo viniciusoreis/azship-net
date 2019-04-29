@@ -1,0 +1,9 @@
+C:\Projetos\AzShip\Src\AzShip.Infra\bin\Debug\netcoreapp2.2\AzShip.Infra.deps.json
+C:\Projetos\AzShip\Src\AzShip.Infra\bin\Debug\netcoreapp2.2\AzShip.Infra.dll
+C:\Projetos\AzShip\Src\AzShip.Infra\bin\Debug\netcoreapp2.2\AzShip.Infra.pdb
+C:\Projetos\AzShip\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.csprojAssemblyReference.cache
+C:\Projetos\AzShip\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.csproj.CoreCompileInputs.cache
+C:\Projetos\AzShip\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.AssemblyInfoInputs.cache
+C:\Projetos\AzShip\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.AssemblyInfo.cs
+C:\Projetos\AzShip\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.dll
+C:\Projetos\AzShip\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.pdb
