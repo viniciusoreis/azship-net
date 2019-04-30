@@ -11,4 +11,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\AzShip.Application\AzShip.Application.csproj" />
+    <ProjectReference Include="..\AzShip.Core\AzShip.Core.csproj" />
+  </ItemGroup>
+
 </Project>

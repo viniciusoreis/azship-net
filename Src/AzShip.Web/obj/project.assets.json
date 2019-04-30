@@ -4438,6 +4438,26 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "AzShip.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/AzShip.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AzShip.Application.dll": {}
+        }
+      },
+      "AzShip.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/AzShip.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AzShip.Core.dll": {}
+        }
       }
     }
   },
@@ -12068,10 +12088,22 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "AzShip.Application/1.0.0": {
+      "type": "project",
+      "path": "../AzShip.Application/AzShip.Application.csproj",
+      "msbuildProject": "../AzShip.Application/AzShip.Application.csproj"
+    },
+    "AzShip.Core/1.0.0": {
+      "type": "project",
+      "path": "../AzShip.Core/AzShip.Core.csproj",
+      "msbuildProject": "../AzShip.Core/AzShip.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "AzShip.Application >= 1.0.0",
+      "AzShip.Core >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0"
@@ -12106,7 +12138,14 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Application\\AzShip.Application.csproj": {
+              "projectPath": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Application\\AzShip.Application.csproj"
+            },
+            "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Core\\AzShip.Core.csproj": {
+              "projectPath": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Core\\AzShip.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

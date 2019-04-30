@@ -24,6 +24,8 @@
     ".NETCoreApp,Version=v2.2": {
       "AzShip.Web/1.0.0": {
         "dependencies": {
+          "AzShip.Application": "1.0.0",
+          "AzShip.Core": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0"
@@ -33,6 +35,22 @@
         },
         "compile": {
           "AzShip.Web.dll": {}
+        }
+      },
+      "AzShip.Application/1.0.0": {
+        "runtime": {
+          "AzShip.Application.dll": {}
+        },
+        "compile": {
+          "AzShip.Application.dll": {}
+        }
+      },
+      "AzShip.Core/1.0.0": {
+        "runtime": {
+          "AzShip.Core.dll": {}
+        },
+        "compile": {
+          "AzShip.Core.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3233,6 +3251,16 @@
   },
   "libraries": {
     "AzShip.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AzShip.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AzShip.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

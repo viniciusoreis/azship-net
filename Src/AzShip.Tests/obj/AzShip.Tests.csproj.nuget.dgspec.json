@@ -4,14 +4,14 @@
     "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Tests\\AzShip.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Tests\\AzShip.Tests.csproj": {
+    "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Core\\AzShip.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Tests\\AzShip.Tests.csproj",
-        "projectName": "AzShip.Tests",
-        "projectPath": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Tests\\AzShip.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Core\\AzShip.Core.csproj",
+        "projectName": "AzShip.Core",
+        "projectPath": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Core\\AzShip.Core.csproj",
         "packagesPath": "C:\\Users\\1511 FOX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Tests\\obj\\",
+        "outputPath": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,134 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Infra.Persistence\\AzShip.Infra.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Infra.Persistence\\AzShip.Infra.Persistence.csproj",
+        "projectName": "AzShip.Infra.Persistence",
+        "projectPath": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Infra.Persistence\\AzShip.Infra.Persistence.csproj",
+        "packagesPath": "C:\\Users\\1511 FOX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Infra.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1511 FOX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Core\\AzShip.Core.csproj": {
+                "projectPath": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Core\\AzShip.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Tests\\AzShip.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Tests\\AzShip.Tests.csproj",
+        "projectName": "AzShip.Tests",
+        "projectPath": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Tests\\AzShip.Tests.csproj",
+        "packagesPath": "C:\\Users\\1511 FOX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1511 FOX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Infra.Persistence\\AzShip.Infra.Persistence.csproj": {
+                "projectPath": "C:\\Users\\1511 FOX\\Source\\Repos\\azship-net\\Src\\AzShip.Infra.Persistence\\AzShip.Infra.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.0.1, )"

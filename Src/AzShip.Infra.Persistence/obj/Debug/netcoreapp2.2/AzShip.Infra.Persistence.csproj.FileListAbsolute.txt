@@ -7,3 +7,17 @@ C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.I
 C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.AssemblyInfo.cs
 C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.dll
 C:\Projetos\AzShip\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.pdb
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\bin\Debug\netcoreapp2.2\AzShip.Infra.Persistence.deps.json
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\bin\Debug\netcoreapp2.2\AzShip.Infra.Persistence.dll
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\bin\Debug\netcoreapp2.2\AzShip.Infra.Persistence.pdb
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.csprojAssemblyReference.cache
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.AssemblyInfoInputs.cache
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.AssemblyInfo.cs
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.dll
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.pdb
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\bin\Debug\netcoreapp2.2\AzShip.Core.dll
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\bin\Debug\netcoreapp2.2\AzShip.Core.pdb
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\obj\Debug\netcoreapp2.2\AzShip.Infra.Persistence.csproj.CopyComplete
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\bin\Debug\netcoreapp2.2\AzShip.Infra.Persistence.runtimeconfig.json
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra.Persistence\bin\Debug\netcoreapp2.2\AzShip.Infra.Persistence.runtimeconfig.dev.json
