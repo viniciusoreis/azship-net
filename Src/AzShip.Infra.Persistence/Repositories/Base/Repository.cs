@@ -9,7 +9,7 @@ using System.Text;
 
 namespace AzShip.Infra.Persistence.Repositories.Base
 {
-    public class Repository<T> : IRepository<T> where T : class
+    public abstract class Repository<T> : IRepository<T> where T : class
     {
         public AzShipContext DbContext;
         protected DbSet<T> DbSet;
@@ -35,8 +35,7 @@ namespace AzShip.Infra.Persistence.Repositories.Base
 
         public IEnumerable<T> Query(Expression<Func<T, bool>> predicate)
         {
-            return DbSet.AsNoTracking()
-                        .Where(predicate);
+            return DbSet.Where(predicate);
         }
 
         public virtual T QueryById(Guid id)
@@ -47,6 +46,11 @@ namespace AzShip.Infra.Persistence.Repositories.Base
         public virtual T QueryById(int id)
         {
             return DbSet.Find(id);
+        }
+
+        public T QueryFirst(Expression<Func<T, bool>> predicate)
+        {
+            return DbSet.FirstOrDefault(predicate);
         }
 
         public void Remove(Guid id)

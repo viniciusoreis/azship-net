@@ -1,4 +1,5 @@
-﻿using AzShip.Core.Models.Base;
+﻿using AzShip.Core.Helpers;
+using AzShip.Core.Models.Base;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,16 +8,16 @@ namespace AzShip.Core.Models
 {
     public class Cargo : EntityGuid
     {
-        public Cargo()
-        {
-
-        }
+        public Cargo() { }
 
         public Cargo(string title, string description, decimal price)
         {
             this.Title = title;
             this.Description = description;
             this.Price = price;
+            this.CreatedDate = DateTime.UtcNow;
+
+            this.RefCode = $"CG{TextHelper.GenerateRandomString(10)}{this.CreatedDate.ToString("MMdd")}";
         }
 
         public Cargo InformAddresses(string sourceAddress, string destinationAddress)
@@ -37,5 +38,7 @@ namespace AzShip.Core.Models
         public string SourceAddress { get; set; }
         public string DestinationAddress { get; set; }
         public string ContactEmail { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public string RefCode { get; set; }
     }
 }

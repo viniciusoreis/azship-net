@@ -13,6 +13,7 @@ namespace AzShip.Core.Interfaces.Repositories
         void Update(T obj);
         int SaveChanges();
         IEnumerable<T> Query(Expression<Func<T, bool>> predicate);
+        T QueryFirst(Expression<Func<T, bool>> predicate);
         T QueryById(Guid id);
         T QueryById(int id);
     }

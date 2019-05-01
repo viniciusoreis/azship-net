@@ -10,9 +10,9 @@ C:\Projetos\AzShip\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.pdb
 C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra\bin\Debug\netcoreapp2.2\AzShip.Infra.deps.json
 C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra\bin\Debug\netcoreapp2.2\AzShip.Infra.dll
 C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra\bin\Debug\netcoreapp2.2\AzShip.Infra.pdb
-C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.csprojAssemblyReference.cache
 C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.csproj.CoreCompileInputs.cache
 C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.AssemblyInfoInputs.cache
 C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.AssemblyInfo.cs
 C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.dll
 C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.pdb
+C:\Users\1511 FOX\Source\Repos\azship-net\Src\AzShip.Infra\obj\Debug\netcoreapp2.2\AzShip.Infra.csprojAssemblyReference.cache

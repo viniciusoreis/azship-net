@@ -24,7 +24,16 @@ namespace AzShip.Infra.Persistence.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Server=localhost\VINILOCALDB;Initial Catalog=local-azship-db;Persist Security Info=False;User ID=sa;Password=Password@123;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=False;Connection Timeout=30;");
+                // Use your own connection string, it's only a test local database
+                optionsBuilder.UseSqlServer(@"Server=localhost\VINILOCALDB;
+                                              Initial Catalog=local-azship-db;
+                                              Persist Security Info=False;
+                                              User ID=sa;
+                                              Password=Password@123;
+                                              MultipleActiveResultSets=False;
+                                              Encrypt=False;
+                                              TrustServerCertificate=False;
+                                              Connection Timeout=30;");
             }
         }
 

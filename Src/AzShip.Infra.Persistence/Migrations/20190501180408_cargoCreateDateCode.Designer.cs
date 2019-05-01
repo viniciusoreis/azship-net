@@ -4,14 +4,16 @@ using AzShip.Infra.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AzShip.Infra.Persistence.Migrations
 {
     [DbContext(typeof(AzShipContext))]
-    partial class AzShipContextModelSnapshot : ModelSnapshot
+    [Migration("20190501180408_cargoCreateDateCode")]
+    partial class cargoCreateDateCode
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
